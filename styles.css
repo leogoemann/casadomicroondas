@@ -1,0 +1,199 @@
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    background-color: orange;
+    border-radius: 20px;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+header img{
+    max-width: 5cm;
+}
+
+header nav.menu_desktop a:hover{
+    color: white;
+    transform: scale(1.05);
+    display: inline-block;
+    text-align: center;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav.menu_desktop ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+
+.text{
+    text-align: center;
+}
+
+section.produtos{
+    padding: 40px 4%;
+}
+
+section.produtos .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.prod a{
+    text-decoration: none;
+}
+
+.prod a img{
+    margin: 20px;
+}
+
+
+section.vd{
+    padding: 40px 4%;
+}
+
+.flex .text2{
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+h1 span{
+    color: orange;
+}
+
+p span{
+    color: orange;
+}
+
+h3 span{
+    color: orange;
+}
+
+.text2 h1{
+    text-align: justify;
+}
+
+.text2 h3{
+    text-align: justify;
+}
+
+.text2 p{
+    text-align: justify;
+}
+
+
+.section .formulario{
+    padding: 80px 4%;
+}
+
+section.marcas{
+    padding: 40px 4%;
+    text-align: center;
+}
+
+.txt_marcas h1{
+    font-size: 35px;
+}
+
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: rgb(46, 44, 44);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+form input::placeholder{
+    color: orange;
+}
+
+form textarea{
+    resize: none;
+    max-height: 400px;
+    height: 200px;
+}
+
+form textarea::placeholder{
+    color: orange;
+}
+
+form .btn_enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn_enviar input{
+    width: 120px;
+    background-color: orange;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+    margin-bottom: 40px;
+}
+
+form .btn_enviar input:hover{
+    box-shadow: 0 0 20px orange;
+    transform: scale(1.05);
+}
+
+footer{
+    padding: 40px 8%;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+
+footer .line_footer{
+    padding: 20px 0;
+}
+
+.btn_contato a{
+    text-decoration: none;
+}
+
+.btn_contato a button{
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    background-color: orange;
+}
