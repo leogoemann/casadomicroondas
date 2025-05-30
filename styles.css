@@ -74,6 +74,19 @@ header nav.navegacao ul li{
     font-size: 25px;
 }
 
+.title{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: -50px;
+    margin-top: 50px;
+}
+
+.title2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
 section.produtos {
     padding: 4px 4%;
 }
@@ -164,16 +177,10 @@ section.vid{
 }
 
 .vd iframe{
-    border-radius: 0px;
+    border-radius: 10px;
     width: 700px;
 }
 
-/* .flex .text_vd{
-    margin-left: 20px;
-    justify-content: center;
-    align-items: center;
-    
-} */
 
 .text_vd {
     margin-left: 40px;
@@ -258,6 +265,7 @@ section.localizacao .flex{
 
 .flex .mapa iframe{
     border-radius: 20px;
+    box-shadow: black;
 }
 
 
@@ -372,7 +380,7 @@ section.fotos .slides{
 }
 
 .myslide img{
-    border: solid black;
+    border: 2px solid black;
     border-radius: 20px;
 }
 
