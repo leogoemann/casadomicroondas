@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
 .interface{
     max-width: 1280px;
     margin: 0 auto;
@@ -9,14 +17,20 @@
 
 html{
     scroll-behavior: smooth;
+    font-family: Barlow Condensed;
+    
+}
+
+body{
+    max-width: 100%;
 }
 
 /* HEADER */
 
 header{
-    border-radius: 20px;
     background-color: rgb(255, 94, 0);
     width: 100%;
+    
 }
 
 header > .interface{
@@ -61,7 +75,7 @@ header nav.navegacao ul li{
 }
 
 section.produtos {
-    padding: 40px 4%;
+    padding: 4px 4%;
 }
 
 section.produtos .flex{
@@ -145,15 +159,76 @@ section.trabalhos .flex{
 
 section.vid{
     padding: 40px 4%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .vd iframe{
-    border-radius: 20px;
+    border-radius: 0px;
+    width: 700px;
 }
 
-.flex .text_vd{
+/* .flex .text_vd{
     margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+.text_vd {
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin-top: -30px;
 }
+
+.text_vd h1 {
+    color: rgb(255, 94, 0);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text_vd h1 span {
+    font-weight: bold;
+}
+
+.text_vd h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.text_vd h3 span {
+    display: block;
+    font-size: 1em;
+}
+
+.text_vd p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.text_vd p span {
+    font-weight: bold;
+   
+}
+
+.text_vd ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 15px 0;
+}
+
+.text_vd ul li {
+    padding: 8px 0;
+    font-size: 1.1em;
+}
+
+.text_vd ul li span {
+    font-weight: bold;
+    
+}
+
 
 section.marcas{
     padding: 40px 4%;
@@ -162,16 +237,19 @@ section.marcas{
 
 .txt_marcas h1{
     font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .img_marcas img{
-    width: 1650px;
+    width: 1200px;
 }
 
 /* mapas */
 
 section.localizacao{
     padding: 40px 4%;
+    margin-top: 50px;
 }
 
 section.localizacao .flex{
@@ -199,31 +277,33 @@ form{
 .titulo{
     text-align: center;
     font-size: 30px;
+    margin-top: 30px;
 }
 
 form input, form textarea{
     width: 100%;
-    background-color: rgb(46, 44, 44);
+    background-color: rgba(101, 97, 97, 0.373);
     border: 0;
     outline: 0;
     padding: 20px 15px;
-    border-radius: 15px;
-    color: white;
+    border-radius: 10px;
+   
     font-size: 18px;
 }
 
 form input::placeholder{
-    color: rgb(255, 94, 0);
+    color: rgb(0, 0, 0);
 }
 
 form textarea{
     resize: none;
     max-height: 400px;
     height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form textarea::placeholder{
-    color: rgb(255, 94, 0);
+    color: rgb(0, 0, 0);
 }
 
 form .btn_enviar{
@@ -233,8 +313,7 @@ form .btn_enviar{
 
 form .btn_enviar input{
     width: 120px;
-    background-color: rgb(255, 94, 0);
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
@@ -242,16 +321,15 @@ form .btn_enviar input{
 }
 
 form .btn_enviar input:hover{
-    box-shadow: 0 0 20px orange;
+    box-shadow: 0 0 20px rgba(46, 44, 41, 0.523);
     transform: scale(1.05);
 }
 
 /* footer */
 
 footer{
-    padding: 40px 8%;
+    padding: 2px 4%;
     background-color: rgb(255, 94, 0);
-    border-radius: 20px;
 }
 
 
@@ -349,6 +427,7 @@ section.fotos .slides{
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    margin-top: 30px;
 }
 
 .active, .dot:hover {
