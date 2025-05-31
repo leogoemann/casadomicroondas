@@ -189,8 +189,8 @@ section.vid{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
     line-height: 1.6;
-    margin-top: 20px;
-    font-size: 13px;
+    margin-top: 0px;
+    font-size: 15px;
 }
 
 .text_vd h1 {
@@ -273,71 +273,6 @@ section.localizacao .flex{
     border-radius: 20px;
     box-shadow: black;
 }
-
-
-/* formulario */
-
-/* form{
-    max-width: 500px;
-    margin: 0 auto;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.titulo{
-    text-align: center;
-    font-size: 30px;
-    margin-top: 30px;
-}
-
-form input, form textarea{
-    width: 100%;
-    background-color: rgba(101, 97, 97, 0.373);
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 10px;
-   
-    font-size: 18px;
-}
-
-form input::placeholder{
-    color: rgb(0, 0, 0);
-}
-
-form textarea{
-    resize: none;
-    max-height: 400px;
-    height: 200px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-form textarea::placeholder{
-    color: rgb(0, 0, 0);
-}
-
-form .btn_enviar{
-    margin-top: 20px;
-    text-align: center;
-}
-
-form .btn_enviar input{
-    width: 120px;
-    color: rgb(0, 0, 0);
-    font-weight: 700;
-    cursor: pointer;
-    transition: .2s;
-    margin-bottom: 40px;
-}
-
-form .btn_enviar input:hover{
-    box-shadow: 0 0 20px rgba(46, 44, 41, 0.523);
-    transform: scale(1.05);
-} */
 
 
 /* formulário */
@@ -425,13 +360,13 @@ form textarea {
 .input-group input,
 .input-group textarea {
   width: 100%;
-  padding-left: 45px; /* espaço pro ícone */
+  padding-left: 45px; 
   font-family: 'Barlow Condensed', sans-serif;
 }
 
-/* Corrige o campo textarea especificamente */
+
 .textarea-group i {
-  top: 20px; /* posiciona o ícone mais acima */
+  top: 20px; 
   transform: none;
 }
 
