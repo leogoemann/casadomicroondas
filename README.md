@@ -9,9 +9,9 @@ MAIN
  - Em seguida, teremos as marcas que eles atendem 
  - Abaixo ficará a sessão do video e o texto alinhado um do lado do outro
  - Vamos adicionar as fotos da estrutura deles em forma de slider
- - A localização ficará logo abaixo com os mapas. Por ultimo um formulario de contato 
+ - A localização ficará logo abaixo com os mapas e por ultimo um formulario de contato 
 
 
 FOOTER
  - Os textos serão retirados, vamos adicionar as informações de contato (whatsapp) e também um botão com a informação da página de “Para conserto em 30 minutos, clique aqui” será adicionado e ao clicar abrirá a imagem.
- - A cor será a mesma do menu 
+ - A cor será a mesma do menu
